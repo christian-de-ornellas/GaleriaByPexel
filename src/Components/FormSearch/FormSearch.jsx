@@ -1,11 +1,11 @@
-import React from "react";
 import { WrapperButton } from "../Button/style";
+
 function FormSearch({ onSearchChange }) {
   const handleInputChange = (evt) => {
     const newValue = evt.target.value;
     onSearchChange(newValue);
     // setCurrentPage(1);
-    console.log(newValue)
+    console.log(newValue);
   };
   return (
     <WrapperButton>

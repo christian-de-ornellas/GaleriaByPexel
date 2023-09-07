@@ -1,4 +1,3 @@
-import React from "react";
 import * as c from "./style";
 
 function Button({ text, onClick, margin, width, height }) {
